@@ -16,5 +16,11 @@ namespace BestVetVeterinarianCarerPlatform.UI
         {
             InitializeComponent();
         }
+
+        private void loginButton_Click(object sender, EventArgs e)
+        {
+            Darshboard darshboard = new Darshboard();
+            darshboard.Show();
+        }
     }
 }
